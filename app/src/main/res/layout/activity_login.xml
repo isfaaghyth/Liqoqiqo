@@ -10,6 +10,84 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="LIQOQIQO"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#80FFFFFF"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white">
+
+            <EditText
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textSize="13sp"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:theme="@style/LiqoqiqoEdittextLine"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white">
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:textSize="13sp"
+                android:textColor="@android:color/white"
+                android:theme="@style/LiqoqiqoEdittextLine"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button"
+            android:text="MASUK"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginBottom="150dp"/>
+
+    </LinearLayout>
 
 </RelativeLayout>
