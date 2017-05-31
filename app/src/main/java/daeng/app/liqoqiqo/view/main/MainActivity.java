@@ -1,15 +1,13 @@
 package daeng.app.liqoqiqo.view.main;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
 
 import daeng.app.liqoqiqo.R;
+import daeng.app.liqoqiqo.base.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding(R.layout.activity_main);
     }
 }
