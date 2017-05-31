@@ -5,7 +5,9 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
+import butterknife.BindView;
 import daeng.app.liqoqiqo.R;
 import daeng.app.liqoqiqo.base.BaseFragment;
 
@@ -14,6 +16,7 @@ import daeng.app.liqoqiqo.base.BaseFragment;
  */
 
 public class MainFragment extends BaseFragment {
+
     public MainFragment() {}
 
     @Nullable @Override public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

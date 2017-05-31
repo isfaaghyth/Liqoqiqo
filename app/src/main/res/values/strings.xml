@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Liqoqiqo</string>
+    <string name="str_mn_pengaturan">Pengaturan</string>
+    <string name="str_mn_keluar">Keluar</string>
 </resources>

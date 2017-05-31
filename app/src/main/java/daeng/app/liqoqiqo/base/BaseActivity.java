@@ -18,6 +18,6 @@ public class BaseActivity extends AppCompatActivity {
 
     protected void setToolbar(Toolbar toolbar) {
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
